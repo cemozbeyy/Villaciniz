@@ -1,0 +1,135 @@
+
+<!-- Header -->
+<header id="header" class="header">
+    <div class="container">
+        <a class="navbar-brand" href="index.php" title="Villacınız">
+            <img src="assets/img/villaciniz_logo.png" alt="Villacınız" />
+        </a>
+        <div class="header-right">
+            <ul class="topmenu">
+                <li>
+                    <a href="javascript:;">
+                        <i class="icon-arrow-down"></i>
+                        <span class="text mlx-1">Keşfet</span>
+                    </a>
+                </li>
+                <li class="header-contact">
+                    <label>Çalışma Saatleri</label>
+                    09:00 - 23:50
+                </li>
+                <li class="header-contact">
+                    <label>İletişim</label>
+                    <a href="tel:+90 533 048 1882">+90 533 048 1882</a>
+                </li>
+                <li>
+                    <a href="#modalSearch" data-toggle="modal">
+                        <img src="assets/img/icon_search.svg" alt="" />
+                    </a>
+                </li>
+                <li class="hide-lg-up">
+                    <a href="tel:+90 533 048 1882">
+                        <img src="assets/img/icon_call.svg" alt="" />
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:;" id="burger">
+                        <img src="assets/img/icon_menu.svg" alt="" />
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</header>
+<div id="mainMenu" class="mainmenu">
+    <div class="bg-mainmenu"></div>
+    <nav class="menunav" role="menu">
+        <a href="javascript:;" class="mainmenu-close">
+            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 210 210">
+                <defs>
+                    <style>
+                        .cls-1 {
+                            fill: #172e6f;
+                        }
+
+                        .cls-2 {
+                            fill: none;
+                            stroke: #23c1ff;
+                            stroke-linecap: round;
+                            stroke-miterlimit: 10;
+                            stroke-width: 5px;
+                        }
+                    </style>
+                </defs>
+                <path class="cls-1"
+                    d="M105.25,11a94,94,0,1,1-94,94,94.11,94.11,0,0,1,94-94m0-6a100,100,0,1,0,100,100,100,100,0,0,0-100-100Z" />
+                <polygon class="cls-2"
+                    points="157.58 64.69 145.56 52.67 105.25 92.98 64.94 52.67 52.92 64.69 93.23 105 52.92 145.31 64.94 157.33 105.25 117.02 145.56 157.33 157.58 145.31 117.27 105 157.58 64.69" />
+            </svg>
+        </a>
+        <ul class="menulist">
+            <li class="menu-item">
+                <a href="index.php" class="menu-link">Anasayfa</a>
+            </li>
+            <li class="menu-item">
+                <a href="villa-liste.php" class="menu-link">Kiralık Villalar</a>
+            </li>
+            <li class="menu-item">
+                <a href="villa-tipleri.php" class="menu-link">Villa Çeşitleri</a>
+            </li>
+            <li class="menu-item">
+                <a href="bolgeler.php" class="menu-link">Bölgeler</a>
+            </li>
+            <li class="menu-item">
+                <a href="javascript:;" class="menu-link">Hakkımızda</a>
+            </li>
+            <li class="menu-item">
+                <a href="iletisim.php" class="menu-link">İletişim</a>
+            </li>
+            <li class="menu-item">
+                <a href="javascript:;" class="menu-link">Blog</a>
+            </li>
+        </ul>
+        <div class="social-links">
+            <a href="javascript:;" target="_blank" rel="nofollow">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="javascript:;" target="_blank" rel="nofollow">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="javascript:;" target="_blank" rel="nofollow">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="javascript:;" target="_blank" rel="nofollow">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a href="javascript:;" target="_blank" rel="nofollow">
+                <i class="fab fa-youtube"></i>
+            </a>
+        </div>
+    </nav>
+</div>
+<!-- Header Son -->
+
+<!-- Modal Search -->
+<div class="modal modal-search" id="modalSearch" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-full" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">
+                        <i class="fas fa-times-circle" aria-hidden="true"></i>
+                    </span>
+                </button>
+            </div>
+            <div class="modal-body" id="modal-search-bar">
+                <form action="villa-liste.php" method="get">
+                    <input type="text" name="search" placeholder="Villa Ara" class="form-control" autocomplete="off"
+                        required="">
+                    <button type="submit" class="btn btn-white">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

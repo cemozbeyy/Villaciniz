@@ -1,0 +1,16 @@
+{
+    "short_name": "VİLLACINIZ",
+    "name": "Villacınız",
+    "icons": [
+        {
+        "src": "../img/favicon_144.png",
+        "type": "image/png",
+        "sizes": "144x144"
+        }
+    ],
+    "start_url": "index.php",
+    "theme_color": "#172e6f",
+    "background_color": "#FFFFFF",
+    "display": "standalone",
+    "orientation": "landscape"
+}
